@@ -1,5 +1,6 @@
 package com.crud.tasks.controller;
 
+import com.crud.tasks.badges.Badges;
 import com.crud.tasks.client.TrelloClient;
 import com.crud.tasks.domain.CreatedTrelloCard;
 import com.crud.tasks.domain.TrelloBoardDto;
@@ -26,4 +27,5 @@ public class TrelloController {
     public ResponseEntity<CreatedTrelloCard>createTrelloCard(@RequestBody TrelloCardDto trelloCardDto){
         return ResponseEntity.ok(trelloClient.createNewCard(trelloCardDto));
     }
+
 }
