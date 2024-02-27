@@ -25,13 +25,13 @@ class SimpleEmailServiceTest {
 //Given
 //Mail mail = new Mail("test@test.com", "Test", "Test Message", "xyz");
 
-      //  SimpleMailMessage mailMessage = new SimpleMailMessage();
-      //  mailMessage.setTo(mail.getMailTo());
-      //  mailMessage.setSubject(mail.getSubject());
-      //  mailMessage.setText(mail.getMessage());
+       // SimpleMailMessage mailMessage = new SimpleMailMessage();
+      // mailMessage.setTo(mail.getMailTo());
+      // mailMessage.setSubject(mail.getSubject());
+      // mailMessage.setText(mail.getMessage());
 //When
-        //simpleEmailService.send(mail);
+       // simpleEmailService.send(mail);
 //Then
-   //     verify(javaMailSender, times(1)).send
+        //verify(javaMailSender, times(1)).send(mailMessage);
     }
-}
+    }
